@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/course"
+        android:icon="@drawable/course"
+        android:title="介绍" />
+    <item
+        android:id="@+id/exercises"
+        android:icon="@drawable/exercises"
+        android:title="图片"/>
+    <item
+        android:id="@+id/mine"
+        android:icon="@drawable/mine"
+        android:title="我" />
+</menu>

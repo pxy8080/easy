@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    tools:context=".activity.UpdateActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#23ADFF">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:src="@drawable/icon_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="设置"
+            android:textColor="@color/white" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/textview_border"
+        android:drawablePadding="20dp"
+        android:gravity="center_vertical"
+        android:paddingVertical="10dp"
+        android:paddingLeft="20dp"
+        android:paddingEnd="10dp"
+        android:text="修改密码"
+        app:drawableRightCompat="@drawable/icon_enter" />
+
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv1"
+        android:background="@drawable/textview_border"
+        android:drawablePadding="20dp"
+        android:gravity="center_vertical"
+        android:paddingVertical="10dp"
+        android:paddingLeft="20dp"
+        android:paddingEnd="10dp"
+        android:text="设置密保"
+        app:drawableRightCompat="@drawable/icon_enter" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv2"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/textview_border"
+        android:drawablePadding="20dp"
+        android:gravity="center_vertical"
+        android:paddingVertical="10dp"
+        android:paddingLeft="20dp"
+        android:paddingEnd="10dp"
+        android:text="退出登录"
+        app:drawableRightCompat="@drawable/icon_enter" />
+</RelativeLayout>

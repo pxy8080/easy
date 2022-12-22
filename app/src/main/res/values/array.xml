@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="img">
+        <item>https://pic1.zhimg.com/80/v2-fafb52e9946690564c6427e0ee8bc5f8_720w.webp</item>
+
+        <item>https://cdn.pixabay.com/photo/2015/05/26/00/48/basketball-784097__340.jpg</item>
+        <item>https://cdn.pixabay.com/photo/2016/11/29/12/17/action-1869428__340.jpg</item>
+        <item>https://cdn.pixabay.com/photo/2022/06/13/19/43/man-7260571__340.jpg</item>
+        <item>https://cdn.pixabay.com/photo/2017/08/13/08/32/sports-2636539__340.jpg</item>
+        <item>https://cdn.pixabay.com/photo/2014/09/09/12/46/basketball-440057__340.jpg</item>
+        <item>https://cdn.pixabay.com/photo/2017/04/25/05/45/basketball-2258651__340.jpg</item>
+        <item>https://cdn.pixabay.com/photo/2014/09/27/13/34/basketball-hoop-463458__340.jpg</item>
+        <item>https://cdn.pixabay.com/photo/2013/03/06/14/21/basketball-90904__340.jpg</item>
+
+        <item>https://cdn.pixabay.com/photo/2016/07/11/21/49/basketball-1510765__340.jpg</item>
+        <item>https://cdn.pixabay.com/photo/2016/08/28/02/13/basketball-1625318__340.jpg</item>
+        <item>https://cdn.pixabay.com/photo/2017/06/18/17/10/basketball-2416463__340.jpg</item>
+
+    </string-array>
+</resources>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SettingActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#008CFF">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:src="@drawable/icon_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="修改密码"
+            android:textColor="@color/white" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/textview_border"
+        android:drawableLeft="@drawable/icon_account"
+        android:drawablePadding="10dp"
+        android:hint="请输入旧密码"
+        android:paddingVertical="10dp"
+        android:paddingLeft="10dp" />
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et1"
+        android:layout_marginHorizontal="30dp"
+        android:background="@drawable/textview_border"
+        android:drawableLeft="@drawable/icon_lock"
+        android:drawablePadding="10dp"
+        android:hint="请输入新密码"
+        android:inputType="textPassword"
+        android:paddingVertical="10dp"
+        android:paddingLeft="10dp" />
+
+    <EditText
+        android:id="@+id/et3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et2"
+        android:layout_marginHorizontal="30dp"
+        android:background="@drawable/textview_border"
+        android:drawableLeft="@drawable/icon_lock"
+        android:drawablePadding="10dp"
+        android:hint="请再次输入新密码"
+        android:inputType="textPassword"
+        android:paddingVertical="10dp"
+        android:paddingLeft="10dp" />
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et3"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FCA428"
+        android:text="修改" />
+</RelativeLayout>
